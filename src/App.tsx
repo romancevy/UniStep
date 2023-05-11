@@ -1,7 +1,7 @@
 import CustomForm from "./components/CustomForm";
 import { useState } from "react";
 import Task from "./components/Task";
-import { ChangeEvent, FormEvent } from "react";
+import { ChangeEvent, FormEvent, MouseEvent } from "react";
 
 // confetti library
 import JSConfetti from "js-confetti";

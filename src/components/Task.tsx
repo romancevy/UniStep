@@ -9,7 +9,7 @@ interface TaskProps {
 const Task = ({ value, handleCompletedTask }: TaskProps) => {
   return (
     <>
-      <h1 className="text-3xl sm:text-6xl font-bold tracking-wide">
+      <h1 className="text-3xl sm:text-6xl font-bold tracking-wide text-center">
         👉 {value} 👈
       </h1>
       <button
